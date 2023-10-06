@@ -1,6 +1,7 @@
-Через термінал чи командну строку в потрібній директорії запусти команду:
+#### Спершу зроби форк (Fork), як на відео!
+Через термінал чи командну строку в потрібній директорії запусти команду з посиланням на форкнутий проект у вашій директорії:
 ```
-git clone https://github.com/Codefinity-py/lab_0.git
+git clone https://github.com/твій-гітхаб-нікнейм/lab_0.git
 ```
 Після встановлення відкрий папку в зручному IDE.
 
@@ -40,9 +41,10 @@ git commit -am 'Solution'
 git push origin develop
 ```
 
+Тільки якщо ти отримав помилку на Макбуці, зроби наступні 3 кроки:
 ```
 git remote remove origin
-git remote add origin https://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@github.com/Codefinity-py/lab_0.git
+git remote add origin https://токен-з-твоєї-сторінки-як-на-відео-для-маку@github.com/твій-нікнейм/lab_0.git
 git remote -v
 ```
 Після останньої команди ти маєш отримати в терміналі таку саме посилання як в попередній команді.
